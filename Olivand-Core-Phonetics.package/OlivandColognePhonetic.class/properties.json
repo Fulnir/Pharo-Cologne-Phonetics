@@ -1,0 +1,14 @@
+{
+	"category" : "Olivand-Core-Phonetics",
+	"classinstvars" : [
+		"colognePhoneticTable" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "OlivandColognePhonetic",
+	"pools" : [
+		 ],
+	"super" : "DoubleMetaphoneStringComparator",
+	"type" : "normal" }

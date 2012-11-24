@@ -1,0 +1,14 @@
+{
+	"category" : "Olivand-Core-Phonetics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OlivandPhoneticTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
