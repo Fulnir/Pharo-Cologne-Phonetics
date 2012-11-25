@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfOlivandColognePhonetic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfOlivandColognePhonetic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

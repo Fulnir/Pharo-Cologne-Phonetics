@@ -47,12 +47,12 @@ asColognePhonetic: aString
 								ifTrue: [code := 8]
 								ifFalse: [code := 48]]].
 			previousCode = code
-				ifFalse: [phoneticString := phoneticString , code greaseString].
+				ifFalse: [phoneticString := phoneticString , code asString] .
 			previousCode := code].
 	trimmedPhoneticString := ''.
 	phoneticString
 		do: [:each | (each = space
 					or: [each = $0])
-				ifFalse: [trimmedPhoneticString := trimmedPhoneticString , each greaseString]].
-	"greaseString"
+				ifFalse: [trimmedPhoneticString := trimmedPhoneticString , each asString]].
+	
 	^ trimmedPhoneticString
