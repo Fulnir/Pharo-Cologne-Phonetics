@@ -2,8 +2,11 @@ baselines
 baseline10: spec
 	<version: '1.0-baseline'>
 
+	| gitPath |
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
+		gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
+		spec repository:  'filetree://', gitPath, '/Olivand-Core-Phonetics'.
 		spec repository: 'filetree:///Users/ed/Projekt-Olivand/Repositories/Olivand-Repositories/Olivand-Core-Phonetics'. 
 		spec project: 'Gofer' with: [
 				spec
