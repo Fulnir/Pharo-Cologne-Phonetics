@@ -4,7 +4,7 @@ baseline10: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'filetree:///Users/ed/Projekt\ Olivand/Repositories/Olivand-Repositories/Olivand-Core-Phonetics'. 
+		spec repository: 'filetree:///Users/ed/Projekt-Olivand/Repositories/Olivand-Repositories/Olivand-Core-Phonetics'. 
 		spec project: 'Gofer' with: [
 				spec
 					className: 'ConfigurationOfGofer';
