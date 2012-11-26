@@ -4,7 +4,7 @@
 gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 Metacello new
-  configuration: 'Olivand-Core-Phonetics';
+  configuration: 'OlivandColognePhonetic';
   repository: 'filetree://', gitPath, '/Olivand-Core-Phonetics';
   load.
   
