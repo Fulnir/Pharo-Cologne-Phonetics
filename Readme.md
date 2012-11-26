@@ -15,10 +15,16 @@ Sie wurde 1969 von Postel veröffentlicht.
 
 more at: http://de.wikipedia.org/wiki/Kölner_Phonetik
 
+```Smalltalk
 MCHttpRepository
 	location: 'http://www.squeaksource.com/SoundsLike'
 	user: ''
 	password: ''
+```
+
 	
 use also greaseString from Seaside
+
+[![Build Status](https://secure.travis-ci.org/Fulnir/Olivand-Core-Phonetics.png)](https://www.travis-ci.org/Fulnir/Olivand-Core-Phonetics)
+
 
