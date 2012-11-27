@@ -1,4 +1,5 @@
-# Olivand-Core-Phonetics
+# Olivand-Core-Phonetics  [![Build Status](https://secure.travis-ci.org/Fulnir/Olivand-Core-Phonetics.png)](https://www.travis-ci.org/Fulnir/Olivand-Core-Phonetics)
+
 
 (Pharo Smalltalk) An extension for SoundsLike.
 
@@ -21,10 +22,3 @@ MCHttpRepository
 	user: ''
 	password: ''
 ```
-
-	
-use also greaseString from Seaside
-
-[![Build Status](https://secure.travis-ci.org/Fulnir/Olivand-Core-Phonetics.png)](https://www.travis-ci.org/Fulnir/Olivand-Core-Phonetics)
-
-

@@ -5,11 +5,11 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 Metacello new
   configuration: 'OlivandColognePhonetic';
-  repository: 'filetree://', gitPath, '/Olivand-Core-Phonetics';
-  load.
+  repository: 'filetree://', gitPath, '/Olivand';
+  load: 'Tests'.
   
 "Run the tests"
 TravisCIHarness
-  value: #( 'ConfigurationOfOlivandColognePhonetic' )
+  value: #( 'ConfigurationOfOlivand' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
