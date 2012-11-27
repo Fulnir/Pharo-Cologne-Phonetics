@@ -10,6 +10,6 @@ Metacello new
   
 "Run the tests"
 TravisCIHarness
-  value: #( 'ConfigurationOfOlivand' )
+  value: #( 'ConfigurationOfOlivandColognePhonetic' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
